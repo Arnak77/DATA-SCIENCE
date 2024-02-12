@@ -1,0 +1,288 @@
+
+> #Variable Assignment – (2 ways to assign the variable)
+> X = 2 
+> X
+[1] 2
+> Y<-2
+> Y
+[1] 2
+> 
+> #Data Types
+> a = 2.5 #numeric
+> a
+[1] 2.5
+> class(a)
+[1] "numeric"
+> 
+> b=1 #also Numeric
+> b
+[1] 1
+> class(b)
+[1] "numeric"
+> 
+> c=1L #integer
+> c
+[1] 1
+> class(c)
+[1] "integer"
+> 
+> d <- "Hello"
+> print(d)
+[1] "Hello"
+> class(d)
+[1] "character"
+> 
+> e=TRUE #logical (TRUE, FALSE)
+> e
+[1] TRUE
+> class(e)
+[1] "logical"
+> 
+> f=1+4i # comple
+> f
+[1] 1+4i
+> class(f)
+[1] "complex"
+> 
+> #Arithmetic operators +, -, *, /, ^, or **, %%, (%/%)
+> 
+> 1+1 
+[1] 2
+> 2-2
+[1] 0
+> 2*2
+[1] 4
+> 2**2
+[1] 4
+> 6/3
+[1] 2
+> 2^2
+[1] 4
+> 
+> 4%%2 #(modulus) (you will get the reminder part)
+[1] 0
+> 5%%2
+[1] 1
+> 15%%3 
+[1] 0
+> 
+> #Relational operators || Logical operator(>, >=, <, <=,==,!=)
+> 5>3
+[1] TRUE
+> 2<3
+[1] TRUE
+> 5>=5
+[1] TRUE
+> 5>5
+[1] FALSE
+> 10==10
+[1] TRUE
+> 10!=5
+[1] TRUE
+> A<-110
+> a<-10
+> 
+> #Sequence function 
+> 
+> #1 – possibility 
+> seq1 = 1:10
+> seq1
+ [1]  1  2  3  4  5  6  7  8  9 10
+> seq_len(10)
+ [1]  1  2  3  4  5  6  7  8  9 10
+> 
+> #2 – possibility 
+> seq2 = seq(1,10)
+> seq2
+ [1]  1  2  3  4  5  6  7  8  9 10
+> 
+> seq3 = seq(1,10,by=2)
+> seq3 
+[1] 1 3 5 7 9
+> 
+> #DATA STRUCTURES
+> #Vectors
+> num_vec = c(1,2,3) # To create a numeric vector
+> num_vec
+[1] 1 2 3
+> class(num_vec)
+[1] "numeric"
+> 
+> 
+> int_vec = c(1L,2L,3L) 
+> int_vec
+[1] 1 2 3
+> class(int_vec)
+[1] "integer"
+> 
+> 
+> bool_vec = c(T,F,T)
+> bool_vec
+[1]  TRUE FALSE  TRUE
+> class(bool_vec)
+[1] "logical"
+> 
+> char_vec = c("Hello", "World")
+> char_vec
+[1] "Hello" "World"
+> class(char_vec)
+[1] "character"
+> 
+> mix_vec = c(T,2L,2)#we assigned as bool,int,numeric value  & R is transferring that value to numeric 
+> mix_vec
+[1] 1 2 2
+> class(mix_vec)
+[1] "numeric"
+> 
+> 
+> mix_vec_1 = c(T,2L,2,"bla")
+> mix_vec_1
+[1] "TRUE" "2"    "2"    "bla" 
+> class(mix_vec_1)
+[1] "character"
+> 
+> #Matrices
+> m = matrix(1:4,ncol=2, nrow=2)
+> m
+     [,1] [,2]
+[1,]    1    3
+[2,]    2    4
+> 
+> m1 = matrix(1:6, ncol=2, nrow=2)
+Warning message:
+In matrix(1:6, ncol = 2, nrow = 2) :
+  data length differs from size of matrix: [6 != 2 x 2]
+> m1
+     [,1] [,2]
+[1,]    1    3
+[2,]    2    4
+> 
+> m2 = matrix(1:6, ncol=3, nrow=3)
+Warning message:
+In matrix(1:6, ncol = 3, nrow = 3) :
+  data length differs from size of matrix: [6 != 3 x 3]
+> m2
+     [,1] [,2] [,3]
+[1,]    1    4    1
+[2,]    2    5    2
+[3,]    3    6    3
+> 
+> 
+> col_vec = matrix(1:4, ncol=1,nrow=4)
+> col_vec
+     [,1]
+[1,]    1
+[2,]    2
+[3,]    3
+[4,]    4
+> 
+> ## You cannot store different data type in the matrices
+> 
+> #Indexing
+> char_vec = c("tick", "tack", "toe")
+> cbind(char_vec,bool_vec)
+     char_vec bool_vec
+[1,] "tick"   "TRUE"  
+[2,] "tack"   "FALSE" 
+[3,] "toe"    "TRUE"  
+> char_vec[1]
+[1] "tick"
+> char_vec[2]
+[1] "tack"
+> char_vec[3]
+[1] "toe"
+> char_vec[1:3]
+[1] "tick" "tack" "toe" 
+> char_vec[1:5]
+[1] "tick" "tack" "toe"  NA     NA    
+> char_vec[3:3]
+[1] "toe"
+> 
+> #Indexing from matrix 
+> m2 = matrix(1:9, ncol=3, nrow=3)
+> m2
+     [,1] [,2] [,3]
+[1,]    1    4    7
+[2,]    2    5    8
+[3,]    3    6    9
+> m2[1,]
+[1] 1 4 7
+> m2[,1]
+[1] 1 2 3
+> m2[1,1]
+[1] 1
+> m2[1,2]
+[1] 4
+> m2[2,]
+[1] 2 5 8
+> m2[2:3] 
+[1] 2 3
+> m2[2,3]
+[1] 8
+> 
+> #LIST (TO STORE MULTIPLE DATA TYPES)
+> list1 = list(c(1,2,3), 'hello', 1:10)
+> str(list1) # find the data type in the list
+List of 3
+ $ : num [1:3] 1 2 3
+ $ : chr "hello"
+ $ : int [1:10] 1 2 3 4 5 6 7 8 9 10
+> 
+> 
+> #DATAFRAME 
+> df = data.frame(
++  names = c("chancy","dushya"),
++  debts = c(100,200))
+> str(df)
+'data.frame':	2 obs. of  2 variables:
+ $ names: chr  "chancy" "dushya"
+ $ debts: num  100 200
+> df[,2]
+[1] 100 200
+> df[1,]
+   names debts
+1 chancy   100
+> df[1,2]
+[1] 100
+> df[1,1]
+[1] "chancy"
+> 
+> #Read the csv file
+> df1= read.csv("D:/NIT/FEBRUARY/7 & 8 feb (praticle tensorflow)/6th, 7th - Deep Learning/Practicle - CPU/ANN_ 1st/Churn_Modelling.csv")
+> View(df1)
+> mean(df1[,2])
+[1] 15690941
+> 
+> 
+> #for loop
+> for(value in 1:5){print("hello")}
+[1] "hello"
+[1] "hello"
+[1] "hello"
+[1] "hello"
+[1] "hello"
+> 
+> vec = c(1,2,3)
+> for(value in vec) {print(vec)}
+[1] 1 2 3
+[1] 1 2 3
+[1] 1 2 3
+
+> #Function
+> x = function(){print('hello')}
+> x()
+[1] "hello"
+> y=function(arg1){arg1**2}
+> y(2)
+[1] 4
+> z=function(arg1,arg2){loc = arg1 + arg2
++ return(loc)}
+> z(10,20)
+[1] 30
+> #recursive function (factorial)
+> facfoo = function(n) {if (n==0) {return(1)}
++  else return (facfoo(n-1) * n)}
+> facfoo(5)
+[1] 120
+> facfoo(4)
+[1] 24

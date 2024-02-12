@@ -1,0 +1,254 @@
+#Variable Assignment – (2 ways to assign the variable)
+X = 2 
+X
+Y<-2
+Y
+
+#Data Types
+a = 2.5 #numeric
+a
+class(a)
+
+b=1 #also Numeric
+b
+class(b)
+
+c=1L #integer
+c
+class(c)
+
+d <- "Hello"
+print(d)
+class(d)
+
+e=TRUE #logical (TRUE, FALSE)
+e
+class(e)
+
+f=1+4i # comple
+f
+class(f)
+
+#Arithmetic operators +, -, *, /, ^, or **, %%, (%/%)
+
+1+1 
+2-2
+2*2
+2**2
+6/3
+2^2
+
+4%%2 #(modulus) (you will get the reminder part)
+5%%2
+15%%3 
+
+#Relational operators || Logical operator(>, >=, <, <=,==,!=)
+5>3
+2<3
+5>=5
+5>5
+10==10
+10!=5
+A<-110
+a<-10
+
+#Sequence function 
+
+#1 – possibility 
+seq1 = 1:10
+seq1
+seq_len(10)
+
+#2 – possibility 
+seq2 = seq(1,10)
+seq2
+
+seq3 = seq(1,10,by=2)
+seq3 
+
+#DATA STRUCTURES
+#Vectors
+num_vec = c(1,2,3) # To create a numeric vector
+num_vec
+class(num_vec)
+
+
+int_vec = c(1L,2L,3L) 
+int_vec
+class(int_vec)
+
+
+bool_vec = c(T,F,T)
+bool_vec
+class(bool_vec)
+
+char_vec = c("Hello", "World")
+char_vec
+class(char_vec)
+
+mix_vec = c(T,2L,2)#we assigned as bool,int,numeric value  & R is transferring that value to numeric 
+mix_vec
+class(mix_vec)
+
+
+mix_vec_1 = c(T,2L,2,"bla")
+mix_vec_1
+class(mix_vec_1)
+
+#Matrices
+m = matrix(1:4,ncol=2, nrow=2)
+m
+
+m1 = matrix(1:6, ncol=2, nrow=2)
+m1
+
+m2 = matrix(1:6, ncol=3, nrow=3)
+m2
+
+
+col_vec = matrix(1:4, ncol=1,nrow=4)
+col_vec
+
+## You cannot store different data type in the matrices
+
+#Indexing
+char_vec = c("tick", "tack", "toe")
+cbind(char_vec,bool_vec)
+char_vec[1]
+char_vec[2]
+char_vec[3]
+char_vec[1:3]
+char_vec[1:5]
+char_vec[3:3]
+
+#Indexing from matrix 
+m2 = matrix(1:9, ncol=3, nrow=3)
+m2
+m2[1,]
+m2[,1]
+m2[1,1]
+m2[1,2]
+m2[2,]
+m2[2:3] 
+m2[2,3]
+
+#LIST (TO STORE MULTIPLE DATA TYPES)
+list1 = list(c(1,2,3), 'hello', 1:10)
+str(list1) # find the data type in the list
+
+
+#DATAFRAME 
+df = data.frame(
+  names = c("chancy","dushya"),
+  debts = c(100,200))
+str(df)
+df[,2]
+df[1,]
+df[1,2]
+df[1,1]
+
+#Read the csv file
+df1= read.csv("D:/NIT/FEBRUARY/7 & 8 feb (praticle tensorflow)/6th, 7th - Deep Learning/Practicle - CPU/ANN_ 1st/Churn_Modelling.csv")
+View(df1)
+mean(df1[,2])
+
+
+#for loop
+for(value in 1:5){print("hello")}
+
+vec = c(1,2,3)
+for(value in vec) {print(vec)}
+
+
+
+#while loop
+value = 1
+while(value<5) {print(value)
+  value = value + 1}
+-------- while(TRUE) {print('infinity')} 
+
+
+
+#Function
+x = function(){print('hello')}
+x()
+y=function(arg1){arg1**2}
+y(2)
+z=function(arg1,arg2){loc = arg1 + arg2
+return(loc)}
+z(10,20)
+
+
+#recursive function (factorial)
+facfoo = function(n) {if (n==0) {return(1)}
+  else return (facfoo(n-1) * n)}
+facfoo(5)
+facfoo(4)
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
