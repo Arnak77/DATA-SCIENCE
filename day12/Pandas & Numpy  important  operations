@@ -1,0 +1,41 @@
+
+###### 1] np.array(): Turns a regular list or tuple into a NumPy array.
+###### 2] np.arange(): Makes an array with evenly spaced numbers within a range.
+###### 3] np.zeros(): Creates an array filled entirely with zeros.
+###### 4] np.ones(): Generates an array filled entirely with ones.
+###### 5] np.linspace(): Produces evenly spaced numbers over a specified range.
+###### 6] np.reshape(): Changes the shape of an array into a new shape.
+###### 7] np.random.rand(): Gives an array of random numbers from a uniform distribution.
+###### 8] np.sum(): Adds up all the elements in an array.
+###### 9] np.mean(): Calculates the average value of the elements in an array.
+###### 10] np.argmax(): Finds the index of the maximum value in an array.
+###### 11] np.argmin(): Finds the index of the minimum value in an array.
+###### 12] np.max(): Finds the largest value in an array.
+###### 13] np.min(): Finds the smallest value in an array.
+###### 14] np.dot(): Computes the dot product of two arrays.
+###### 15] np.transpose(): Changes the rows and columns of an array.
+###### 16] np.concatenate(): Combines arrays along a specific axis.
+###### 17] np.vstack(): Stacks arrays vertically, one on top of the other.
+###### 18] np.hstack(): Stacks arrays horizontally, side by side.
+###### 19] np.split(): Divides an array into several smaller arrays.
+###### 20] np.unique(): Identifies the unique elements within an array.
+
+
+
+
+###### 1] df.info(): Displays information about the DataFrame, such as column names and data types.
+###### 2] df.describe(): Provides statistical summary of the DataFrame's numerical columns.
+###### 3] df.head(): Shows the first few rows of the DataFrame.
+###### 4] df.apply(): Applies a function to each column or row of the DataFrame.
+###### 5] df.groupby(): Groups the DataFrame by a specified column and applies aggregation functions.
+###### 6] df.sort_values(): Sorts the DataFrame based on specified column(s).
+###### 7] df.sample(): Randomly samples rows from the DataFrame.
+###### 8] d.read_filetype(filename): Reads data from a file of a specified type into a DataFrame.
+###### 9] df.to_filetype(filename): Writes DataFrame to a file of a specified type.
+###### 10] df.plot(): Generates plots from the DataFrame data.
+###### 11] pd.to_datetime(): Converts an object column to a datetime column.
+###### 12] df.filter(): Filters the DataFrame based on specified conditions or column names.
+###### 13] df.drop(): Removes rows or columns from the DataFrame.
+###### 14] df.rank(): Assigns ranks to data elements in a column.
+###### 15] df1.append(df2): Appends rows from one DataFrame to another.
+###### 16] pd.isnull(): Checks for null values in the DataFrame.
