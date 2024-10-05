@@ -79,6 +79,69 @@ Joins & Functions 🔄
 SQL Joins: Combine data from multiple tables (Inner, Left, Right, etc.). 🔗
 Aggregate Functions: Perform calculations on data (SUM, AVG, etc.). ➗
 
+# Exploratory Data Analysis (EDA) 📊
+Univariate Analysis: Study one variable at a time. 🔍
+Bivariate Analysis: Examine the relationship between two variables. 🔗
+Multivariate Analysis: Analyze more than two variables together. 📈
+Data Visualization: Create plots to visualize data effectively. 🎨
+
+Data Visualization 📉
+Plots for Different Types:
+Continuous Variables: Line plots, histograms. 📈
+Discrete Variables: Bar charts, count plots. 📊
+Time Series Variables: Line charts over time. ⏳
+# Machine Learning (ML) 🤖
+What is Machine Learning?: Teaching computers to learn from data. 📚
+Types of ML Methods: Supervised, unsupervised, and reinforcement learning. 🔍
+Classification Problems: Classifying data into categories. 📋
+Validation Techniques: Cross-validation and out-of-bag methods. ✔️
+Metrics for Classification: Measures to evaluate model performance. 📏
+Curse of Dimensionality: Challenges with too many features. ⚠️
+Feature Transformations: Modifying features for better results. ✨
+Feature Selection: Choosing important features for modeling. 🔑
+Imbalanced Datasets: Issues caused by uneven class distributions. ⚖️
+Bias-Variance Tradeoff: Balancing model complexity and accuracy. ⚖️
+
+Important ML Concepts 📈
+Multiclass Classification: Handling multiple classes in classification tasks. 🥇
+Overfitting & Underfitting: Understanding model performance issues. 🌀
+Error Measures: Evaluating predictions using various metrics. ⚠️
+PCA (Principal Component Analysis): Reducing dimensionality of data. 📏
+
+Data Processing with SKLEARN 🔧
+Data Processing: Preparing training and test datasets. ⚙️
+Feature Engineering: Creating or modifying features as needed. 🔄
+Data Cleaning: Handling missing values and outliers. 🧹
+Data Wrangling: Encoding and scaling features. 🔄
+Dimension Reduction: Techniques like PCA and SVD for simplifying data. 📉
+
+Regression Techniques 📉
+Introduction to Regression: Predicting numerical values. 🔍
+Types of Regression:
+Simple and Multiple Linear Regression: Basic prediction methods. ➕
+Polynomial, Lasso, Ridge, Elastic Net Regression: Advanced techniques. 📈
+Evaluation Metrics for Regression: MAE, MSE, RMSE, R² to measure performance. 📊
+
+Classification Algorithms 📋
+Introduction: Overview of classification methods. 🧩
+Common Algorithms: K-Nearest Neighbors, Logistic Regression, SVM, Decision Trees, Random Forest, Boosting techniques. 🌲
+Evaluation Metrics: Measures to assess classification performance. 📏
+
+Clustering Techniques 🕵️
+K-Means Clustering: Grouping similar data points. 🌀
+Elbow Method: Finding the right number of clusters. 🎯
+Hierarchical Clustering: Building a hierarchy of clusters. 🏰
+
+Time Series & Forecasting ⏳
+Overfitting & Underfitting: Issues in time series prediction. ⚠️
+Bias-Variance Tradeoff: Balancing prediction accuracy and model complexity. ⚖️
+Hyperparameter Tuning: Adjusting model settings for better performance. ⚙️
+
+Miscellaneous 🗃️
+Joblib and Pickling: Saving and loading models. 💾
+Dummy Variable and One-Hot Encoding: Techniques for categorical data. 🏷️
+
+
 
 
 
