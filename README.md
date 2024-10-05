@@ -61,7 +61,7 @@ Seaborn: Visualize complex data and relationships with easy-to-use plots. 📊�
 
 # SQL and Databases Overview 🗄️
 
-DBMS vs RDBMS: Learn the difference between managing databases and relational databases. 🆚
+DBMS vs RDBMS: Learn the difference between managing databases and relational databases. 
 
 Keys & Constraints 🔑
 Primary Key: Unique ID for each record. 🗝️
