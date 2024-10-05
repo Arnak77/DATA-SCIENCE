@@ -103,42 +103,42 @@ Feature Selection: Choosing important features for modeling. 🔑
 Imbalanced Datasets: Issues caused by uneven class distributions. ⚖️
 Bias-Variance Tradeoff: Balancing model complexity and accuracy. ⚖️
 
-1]Important ML Concepts 📈
+1. Important ML Concepts 📈
 Multiclass Classification: Handling multiple classes in classification tasks. 🥇
 Overfitting & Underfitting: Understanding model performance issues. 🌀
 Error Measures: Evaluating predictions using various metrics. ⚠️
 PCA (Principal Component Analysis): Reducing dimensionality of data. 📏
 
-2]Data Processing with SKLEARN 🔧
+2. Data Processing with SKLEARN 🔧
 Data Processing: Preparing training and test datasets. ⚙️
 Feature Engineering: Creating or modifying features as needed. 🔄
 Data Cleaning: Handling missing values and outliers. 🧹
 Data Wrangling: Encoding and scaling features. 🔄
 Dimension Reduction: Techniques like PCA and SVD for simplifying data. 📉
 
-3]Regression Techniques 📉
+3. Regression Techniques 📉
 Introduction to Regression: Predicting numerical values. 🔍
 Types of Regression:
 Simple and Multiple Linear Regression: Basic prediction methods. ➕
 Polynomial, Lasso, Ridge, Elastic Net Regression: Advanced techniques. 📈
 Evaluation Metrics for Regression: MAE, MSE, RMSE, R² to measure performance. 📊
 
-4]Classification Algorithms 📋
+4. Classification Algorithms 📋
 Introduction: Overview of classification methods. 🧩
 Common Algorithms: K-Nearest Neighbors, Logistic Regression, SVM, Decision Trees, Random Forest, Boosting techniques. 🌲
 Evaluation Metrics: Measures to assess classification performance. 📏
 
-5]Clustering Techniques 🕵️
+5. Clustering Techniques 🕵️
 K-Means Clustering: Grouping similar data points. 🌀
 Elbow Method: Finding the right number of clusters. 🎯
 Hierarchical Clustering: Building a hierarchy of clusters. 🏰
 
-6]Time Series & Forecasting ⏳
+6. Time Series & Forecasting ⏳
 Overfitting & Underfitting: Issues in time series prediction. ⚠️
 Bias-Variance Tradeoff: Balancing prediction accuracy and model complexity. ⚖️
 Hyperparameter Tuning: Adjusting model settings for better performance. ⚙️
 
-7]Miscellaneous 🗃️
+7. Miscellaneous 🗃️
 Joblib and Pickling: Saving and loading models. 💾
 Dummy Variable and One-Hot Encoding: Techniques for categorical data. 🏷️
 
