@@ -94,71 +94,71 @@ Time Series Variables: Line charts over time. ⏳
 
 # Statistics:
 
-Descriptive Statistics 📊
+1] Descriptive Statistics 📊
 It's about summarizing and describing data in a simple, easy-to-understand way.
 
-Central Tendency Measures 🎯
+2] Central Tendency Measures 🎯
 These help us find the "center" or typical value in a dataset.
 Mean (Average): The sum of all values divided by the number of values.
 Median: The middle value when data is arranged in order.
 Mode: The value that appears most often.
 
-The Story of Average 📈
+3] The Story of Average 📈
 The mean is the most common type of average, but it can be affected by extreme values. That's why median and mode are also important in different situations.
 
-Dispersion Measures 📐
+4] Dispersion Measures 📐
 These show how spread out or clustered the data is.
 Range: Difference between the highest and lowest values.
 Variance: How far each data point is from the mean.
 Standard Deviation: A measure of the average distance from the mean.
 
-Data Distributions 📊
+5] Data Distributions 📊
 This shows how often different values occur in the data. Common shapes include:
 Normal distribution (bell curve): Most values cluster around the mean.
 Skewed distribution: Data is spread out more to one side.
 
-Central Limit Theorem 🎲
+6] Central Limit Theorem 🎲
 If you take many samples and calculate their averages, these averages will form a normal distribution (bell curve) as the sample size gets larger, even if the original data is not normal.
 
-What is Sampling 📉
+7] What is Sampling 📉
 Taking a small group (sample) from a larger population to make conclusions about the whole population.
 
-Why Sampling 🤔
+8] Why Sampling 🤔
 It's often impossible or too expensive to study the entire population, so we use a sample to estimate the population's characteristics.
 
-Sampling Methods 🎯
+9] Sampling Methods 🎯
 Ways to choose a sample:
 
-Random sampling: Everyone has an equal chance.
+10] Random sampling: Everyone has an equal chance.
 Stratified sampling: Dividing the population into groups and sampling from each.
 Systematic sampling: Choosing every "nth" item.
 Cluster sampling: Dividing into clusters and randomly picking some clusters.
 Inferential Statistics 📉➡️📊
 It’s about making predictions or inferences about a population based on a sample of data.
 
-What is Hypothesis Testing ❓
+11] What is Hypothesis Testing ❓
 A method to test if a claim about a population is likely to be true based on sample data. Example: "Does this medicine work better than the previous one?"
 
-Confidence Level 🔒
+12] Confidence Level 🔒
 The probability that a result is accurate within a certain range, often expressed as 95% or 99% confidence.
 
-Degrees of Freedom 🔢
+13] Degrees of Freedom 🔢
 The number of values in a calculation that are free to vary. It helps in determining the significance of statistical results.
 
-What is p-Value 📉
+14] What is p-Value 📉
 A number that shows how likely it is that your results happened by chance. A low p-value (like 0.05) means your findings are statistically significant.
 
-Chi-Square Test 🔍
+15] Chi-Square Test 🔍
 A test used to see if there's a relationship between two categorical variables. Example: Does gender affect product preference?
 
-What is ANOVA 🧪
+16] What is ANOVA 🧪
 Analysis of Variance (ANOVA) compares the means of three or more groups to see if at least one is different. Example: Comparing test scores across different teaching methods.
 
-Correlation vs Regression 🔗
+17] Correlation vs Regression 🔗
 Correlation: Shows if and how strongly two variables are related (e.g., height and weight).
 Regression: Predicts one variable based on another (e.g., predicting sales based on advertising).
 
-Uses of Correlation and Regression 🔄
+18] Uses of Correlation and Regression 🔄
 Correlation is used to find relationships between variables.
 Regression helps make predictions and understand the impact of one variable on another.
 
